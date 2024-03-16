@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "StudentsApi.Controllers.CrudOperation.CreateNewStudentsDataController",
+    "Method": "Create",
+    "RelativePath": "api/CreateNewStudentsData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "StudentsApi.Ef_Core.Students",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsApi.Controllers.CrudOperation.DestroyStudentsDataController",
+    "Method": "Delete",
+    "RelativePath": "api/DestroyStudentsData/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsApi.Controllers.CrudOperation.FindStudentsWithIdController",
+    "Method": "GetById",
+    "RelativePath": "api/FindStudentsWithId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsApi.Controllers.CrudOperation.GetAllStudentsController",
+    "Method": "Get",
+    "RelativePath": "api/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentsApi.Controllers.CrudOperation.UpdateStudentsController",
+    "Method": "Update",
+    "RelativePath": "api/UpdateStudents/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "student",
+        "Type": "StudentsApi.Ef_Core.Students",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
